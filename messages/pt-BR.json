@@ -1,0 +1,153 @@
+{
+  "Meta": {
+    "title": "VEXILLA — Arquivo Visual de Bandeiras",
+    "description": "Uma jornada editorial pelas histórias, cores e símbolos por trás das bandeiras nacionais e suas subdivisões."
+  },
+  "Nav": {
+    "atlas": "Atlas",
+    "chronicle": "Cronologia",
+    "chromatic": "Cromática",
+    "symbols": "Símbolos",
+    "compare": "Comparador",
+    "discover": "Descobrir",
+    "searchPlaceholder": "Buscar país, cor, símbolo…",
+    "openSearch": "Abrir busca",
+    "toggleTheme": "Alternar tema",
+    "home": "Início"
+  },
+  "Common": {
+    "explore": "Explorar",
+    "viewAll": "Ver tudo",
+    "close": "Fechar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "prev": "Anterior",
+    "random": "Aleatório",
+    "loading": "Carregando",
+    "all": "Todas",
+    "page": "Página",
+    "nations": "{count} nações"
+  },
+  "Hero": {
+    "edition": "Edição N.º 01 · MMXXVI",
+    "archiveLine": "Arquivo vivo · 197 nações · 4.812 símbolos catalogados",
+    "titleLine1": "Toda bandeira",
+    "titleLine2": "é um manifesto",
+    "titleLine3": "tecido em cor & silêncio.",
+    "lede": "Um arquivo editorial sobre o que pulsa por trás de cada faixa, estrela e brasão. Explore nações, percorra estados, descubra cores que mudaram de significado e símbolos que sobreviveram a impérios.",
+    "enterAtlas": "Entrar no Atlas",
+    "chromaticStudy": "Estudo cromático",
+    "scrollHint": "Role para descobrir"
+  },
+  "Manifesto": {
+    "index": "Manifesto editorial",
+    "quote": "Bandeiras não decoram países — elas resumem séculos em quatro ou cinco gestos cromáticos.",
+    "cards": [
+      {
+        "title": "Forma é argumento",
+        "body": "Cada divisão geométrica carrega doutrina: faixas horizontais nasceram da revolução, cantões celebram união, triângulos isolam ideias-força."
+      },
+      {
+        "title": "Cor é memória",
+        "body": "Verdes que eram fé tornaram-se floresta. Vermelhos antes monárquicos viraram operários. Toda paleta é uma camada arqueológica."
+      },
+      {
+        "title": "Símbolo é resistência",
+        "body": "Estrelas marcam estados, sóis marcam povos, animais marcam linhagens. Cada elemento sobreviveu a uma disputa narrativa."
+      }
+    ]
+  },
+  "Archive": {
+    "index": "Atlas exploratório",
+    "title": "Escolha por onde começar.",
+    "lede": "Filtre por continente, era de criação ou cor dominante. Cada cartão abre um dossiê visual completo.",
+    "filterRegion": "Filtrar por continente",
+    "filterColor": "Filtrar por cor dominante",
+    "sortLabel": "Ordem",
+    "sortCurated": "Curadoria editorial",
+    "sortAz": "A — Z",
+    "sortYearAsc": "Bandeira mais antiga",
+    "sortYearDesc": "Bandeira mais recente",
+    "layoutGrid": "Grade",
+    "layoutList": "Editorial",
+    "emptyTitle": "Nenhuma bandeira combina com esses filtros.",
+    "emptyText": "Tente afrouxar as combinações ou limpe a busca.",
+    "reset": "Limpar filtros",
+    "openDossier": "Abrir dossiê"
+  },
+  "Chronicle": {
+    "index": "Cronologia vexilológica",
+    "title": "Quatro séculos em tecido.",
+    "lede": "Da Revolução das Treze Colônias às bandeiras pós-coloniais — arraste para percorrer."
+  },
+  "Palette": {
+    "index": "Estudo cromático",
+    "title": "Cinco cores, mil traduções.",
+    "lede": "Passe o mouse sobre uma cor para revelar as nações que a adotaram e o que ela significa em cada contexto.",
+    "labIndex": "Laboratório cromático",
+    "labTitle": "Extraia a cor. Leia o significado.",
+    "labLede": "Selecione um ponto da bandeira para amostrar sua cor exata e a leitura simbólica por trás dela.",
+    "extract": "Extrair cor",
+    "extractCancel": "Cancelar extração",
+    "instruction": "Clique em qualquer ponto da bandeira para extrair o significado simbólico.",
+    "interactiveSurface": "Superfície interativa",
+    "automatedExtraction": "Extração automática",
+    "restrictedTitle": "Extração restrita",
+    "restrictedText": "Protocolos de segurança bloqueiam o acesso direto aos pixels desta fonte. Use a metadata arquivística oficial abaixo."
+  },
+  "Symbols": {
+    "index": "Léxico de símbolos",
+    "title": "Um vocabulário que atravessa fronteiras.",
+    "appearsIn": "Aparece em",
+    "meaning": "Significado"
+  },
+  "Compare": {
+    "index": "Comparador",
+    "title": "Coloque duas bandeiras frente a frente.",
+    "lede": "Selecione dois países e leia, em paralelo, suas escolhas cromáticas e simbólicas.",
+    "vs": "vs",
+    "selectCountry": "Selecione um país"
+  },
+  "Discover": {
+    "index": "Modo descoberta",
+    "title": "Pequenas histórias que mudam tudo.",
+    "spin": "Sortear bandeira"
+  },
+  "Dossier": {
+    "tabs": {
+      "overview": "Visão geral",
+      "palette": "Paleta",
+      "symbols": "Símbolos",
+      "evolution": "Evolução",
+      "trivia": "Curiosidades",
+      "subdivisions": "Subdivisões",
+      "related": "Relacionadas"
+    },
+    "facts": {
+      "capital": "Capital",
+      "adopted": "Adotada",
+      "ratio": "Proporção",
+      "designer": "Autor",
+      "region": "Região",
+      "tag": "Forma"
+    },
+    "history": "História",
+    "context": "Contexto",
+    "inspectHint": "Toque nos pontos para inspecionar",
+    "now": "Hoje",
+    "then": "Antes",
+    "relatedWhy": "Parentesco visual"
+  },
+  "Footer": {
+    "tagline": "Arquivo editorial sobre vexilologia, cultura e desenho. Projeto independente — todas as bandeiras pertencem aos povos que representam.",
+    "navigate": "Navegar",
+    "editorial": "Editorial",
+    "colophon": "Colofão",
+    "colophonText": "Tipografia Fraunces & Inter. Conteúdo curado, código autoral.",
+    "rights": "© MMXXVI · Vexilla",
+    "motto": "Pano. Tinta. Memória."
+  },
+  "Locale": {
+    "switch": "Idioma"
+  }
+}

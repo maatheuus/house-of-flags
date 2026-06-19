@@ -1,0 +1,153 @@
+{
+  "Meta": {
+    "title": "VEXILLA — Un Archivo Visual de Banderas",
+    "description": "Un viaje editorial por las historias, colores y símbolos detrás de las banderas nacionales y sus subdivisiones."
+  },
+  "Nav": {
+    "atlas": "Atlas",
+    "chronicle": "Cronología",
+    "chromatic": "Cromática",
+    "symbols": "Símbolos",
+    "compare": "Comparador",
+    "discover": "Descubrir",
+    "searchPlaceholder": "Buscar país, color, símbolo…",
+    "openSearch": "Abrir búsqueda",
+    "toggleTheme": "Cambiar tema",
+    "home": "Inicio"
+  },
+  "Common": {
+    "explore": "Explorar",
+    "viewAll": "Ver todo",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "random": "Aleatorio",
+    "loading": "Cargando",
+    "all": "Todas",
+    "page": "Página",
+    "nations": "{count} naciones"
+  },
+  "Hero": {
+    "edition": "Edición N.º 01 · MMXXVI",
+    "archiveLine": "Archivo vivo · 197 naciones · 4.812 símbolos catalogados",
+    "titleLine1": "Toda bandera",
+    "titleLine2": "es un manifiesto",
+    "titleLine3": "tejido en color & silencio.",
+    "lede": "Un archivo editorial sobre lo que late detrás de cada franja, estrella y escudo. Explora naciones, recorre estados, descubre colores que cambiaron de significado y símbolos que sobrevivieron a imperios.",
+    "enterAtlas": "Entrar al Atlas",
+    "chromaticStudy": "Estudio cromático",
+    "scrollHint": "Desplázate para descubrir"
+  },
+  "Manifesto": {
+    "index": "Manifiesto editorial",
+    "quote": "Las banderas no decoran países — resumen siglos en cuatro o cinco gestos cromáticos.",
+    "cards": [
+      {
+        "title": "La forma es argumento",
+        "body": "Cada división geométrica lleva doctrina: las franjas horizontales nacieron de la revolución, los cantones celebran la unión, los triángulos aíslan ideas-fuerza."
+      },
+      {
+        "title": "El color es memoria",
+        "body": "Verdes que eran fe se volvieron bosque. Rojos antes monárquicos se hicieron obreros. Toda paleta es una capa arqueológica."
+      },
+      {
+        "title": "El símbolo es resistencia",
+        "body": "Las estrellas marcan estados, los soles marcan pueblos, los animales marcan linajes. Cada elemento sobrevivió a una disputa narrativa."
+      }
+    ]
+  },
+  "Archive": {
+    "index": "Atlas exploratorio",
+    "title": "Elige por dónde empezar.",
+    "lede": "Filtra por continente, era de adopción o color dominante. Cada tarjeta abre un dossier visual completo.",
+    "filterRegion": "Filtrar por continente",
+    "filterColor": "Filtrar por color dominante",
+    "sortLabel": "Orden",
+    "sortCurated": "Curaduría editorial",
+    "sortAz": "A — Z",
+    "sortYearAsc": "Bandera más antigua",
+    "sortYearDesc": "Bandera más reciente",
+    "layoutGrid": "Cuadrícula",
+    "layoutList": "Editorial",
+    "emptyTitle": "Ninguna bandera coincide con estos filtros.",
+    "emptyText": "Intenta aflojar la combinación o limpiar la búsqueda.",
+    "reset": "Limpiar filtros",
+    "openDossier": "Abrir dossier"
+  },
+  "Chronicle": {
+    "index": "Cronología vexilológica",
+    "title": "Cuatro siglos en tela.",
+    "lede": "De las Trece Colonias a las banderas poscoloniales — arrastra para recorrer."
+  },
+  "Palette": {
+    "index": "Estudio cromático",
+    "title": "Cinco colores, mil traducciones.",
+    "lede": "Pasa el cursor sobre un color para revelar las naciones que lo adoptaron y lo que significa en cada contexto.",
+    "labIndex": "Laboratorio cromático",
+    "labTitle": "Extrae el color. Lee el significado.",
+    "labLede": "Selecciona un punto de la bandera para muestrear su color exacto y la lectura simbólica detrás de él.",
+    "extract": "Extraer color",
+    "extractCancel": "Cancelar extracción",
+    "instruction": "Haz clic en cualquier punto de la bandera para extraer su significado simbólico.",
+    "interactiveSurface": "Superficie interactiva",
+    "automatedExtraction": "Extracción automática",
+    "restrictedTitle": "Extracción restringida",
+    "restrictedText": "Los protocolos de seguridad bloquean el acceso directo a los píxeles de esta fuente. Usa la metadata archivística oficial de abajo."
+  },
+  "Symbols": {
+    "index": "Léxico de símbolos",
+    "title": "Un vocabulario que cruza fronteras.",
+    "appearsIn": "Aparece en",
+    "meaning": "Significado"
+  },
+  "Compare": {
+    "index": "Comparador",
+    "title": "Pon dos banderas frente a frente.",
+    "lede": "Elige dos países y lee, en paralelo, sus decisiones cromáticas y simbólicas.",
+    "vs": "vs",
+    "selectCountry": "Selecciona un país"
+  },
+  "Discover": {
+    "index": "Modo descubrimiento",
+    "title": "Pequeñas historias que lo cambian todo.",
+    "spin": "Sortear bandera"
+  },
+  "Dossier": {
+    "tabs": {
+      "overview": "Visión general",
+      "palette": "Paleta",
+      "symbols": "Símbolos",
+      "evolution": "Evolución",
+      "trivia": "Curiosidades",
+      "subdivisions": "Subdivisiones",
+      "related": "Relacionadas"
+    },
+    "facts": {
+      "capital": "Capital",
+      "adopted": "Adoptada",
+      "ratio": "Proporción",
+      "designer": "Autor",
+      "region": "Región",
+      "tag": "Forma"
+    },
+    "history": "Historia",
+    "context": "Contexto",
+    "inspectHint": "Toca los puntos para inspeccionar",
+    "now": "Hoy",
+    "then": "Antes",
+    "relatedWhy": "Parentesco visual"
+  },
+  "Footer": {
+    "tagline": "Un archivo editorial sobre vexilología, cultura y diseño. Un proyecto independiente — todas las banderas pertenecen a los pueblos que representan.",
+    "navigate": "Navegar",
+    "editorial": "Editorial",
+    "colophon": "Colofón",
+    "colophonText": "Tipografía Fraunces & Inter. Contenido curado, código de autor.",
+    "rights": "© MMXXVI · Vexilla",
+    "motto": "Tela. Tinta. Memoria."
+  },
+  "Locale": {
+    "switch": "Idioma"
+  }
+}
