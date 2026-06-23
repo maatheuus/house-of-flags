@@ -1,0 +1,223 @@
+@import "tailwindcss";
+
+/* =====================================================================
+   VEXILLA — design system
+   Tokens, fonts and atmosphere ported from the mule_flags identity
+   (the dominant design language). Tailwind v4 `@theme` exposes every
+   token as a utility + a CSS variable.
+   ===================================================================== */
+
+@theme {
+  /* ---- raw palette (mule_flags) ---- */
+  --color-ink: #1a1410;
+  --color-ink-2: #2a1f18;
+  --color-paper: #faf3e3;
+  --color-paper-2: #f3e8cf;
+  --color-paper-3: #ece0c2;
+  --color-cream: #fdf0d5;
+  --color-bordeaux: #780000;
+  --color-bordeaux-deep: #5a0000;
+  --color-crimson: #c1121f;
+  --color-navy: #003049;
+  --color-navy-deep: #001f30;
+  --color-sky: #669bbc;
+  --color-sky-soft: #a6c3d4;
+  --color-gold: #c9a14a;
+  --color-moss: #486a4a;
+
+  /* ---- typography ---- */
+  --font-serif: var(--font-fraunces), "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  /* ---- motion ---- */
+  --ease-editorial: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-strong: cubic-bezier(0.7, 0, 0.84, 0);
+
+  /* ---- radii ---- */
+  --radius-xs: 4px;
+  --radius-lg: 22px;
+}
+
+/* Semantic theme variables — light is default, dark overrides below.
+   These are intentionally plain CSS vars (not @theme) so they can flip
+   at runtime via [data-theme] without recompiling utilities. */
+:root {
+  --bg: var(--color-paper);
+  --bg-elev: #fff8e6;
+  --bg-deep: var(--color-paper-3);
+  --fg: var(--color-ink);
+  --fg-soft: #5a4836;
+  --fg-mute: #8a7960;
+  --line: rgba(26, 20, 16, 0.14);
+  --line-strong: rgba(26, 20, 16, 0.28);
+  --accent: var(--color-bordeaux);
+  --accent-2: var(--color-crimson);
+  --cool: var(--color-navy);
+  --cool-2: var(--color-sky);
+
+  --pad-x: clamp(20px, 5vw, 80px);
+  --pad-y: clamp(64px, 9vw, 140px);
+}
+
+[data-theme="dark"] {
+  --bg: #100c09;
+  --bg-elev: #181310;
+  --bg-deep: #0a0705;
+  --fg: #f3e7cf;
+  --fg-soft: #c9b694;
+  --fg-mute: #7b6c54;
+  --line: rgba(243, 231, 207, 0.12);
+  --line-strong: rgba(243, 231, 207, 0.25);
+}
+
+/* ---------- base ---------- */
+@layer base {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+  }
+
+  ::selection {
+    background: var(--color-bordeaux);
+    color: var(--color-cream);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 3px;
+  }
+
+  body.no-scroll {
+    overflow: hidden;
+  }
+}
+
+/* ---------- atmosphere (grain + cursor halo) ---------- */
+@layer components {
+  .vx-grain {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 200;
+    opacity: 0.07;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .1  0 0 0 0 .07  0 0 0 0 .05  0 0 0 .8 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  }
+
+  [data-theme="dark"] .vx-grain {
+    opacity: 0.18;
+    mix-blend-mode: screen;
+  }
+
+  .vx-halo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(193, 18, 31, 0.18), transparent 60%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s var(--ease-editorial);
+    filter: blur(20px);
+    will-change: transform;
+  }
+
+  body.is-ready .vx-halo {
+    opacity: 1;
+  }
+
+  @media (hover: none) {
+    .vx-halo {
+      display: none;
+    }
+  }
+
+  /* infinite editorial marquee */
+  .vx-ribbon {
+    animation: vx-slide 38s linear infinite;
+  }
+
+  @keyframes vx-slide {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* scroll reveal fallback (used when JS/motion is unavailable) */
+  .vx-reveal {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  .vx-reveal.is-in {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 0.9s var(--ease-out-expo),
+      transform 0.9s var(--ease-out-expo);
+  }
+}
+
+/* ---------- reduced motion: hard stop on decorative animation ---------- */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .vx-halo {
+    display: none;
+  }
+}
