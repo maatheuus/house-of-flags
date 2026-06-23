@@ -1,0 +1,153 @@
+{
+  "Meta": {
+    "title": "VEXILLA — A Visual Archive of Flags",
+    "description": "An editorial journey through the histories, colors and symbols behind national flags and their subdivisions."
+  },
+  "Nav": {
+    "atlas": "Atlas",
+    "chronicle": "Chronicle",
+    "chromatic": "Chromatic",
+    "symbols": "Symbols",
+    "compare": "Compare",
+    "discover": "Discover",
+    "searchPlaceholder": "Search country, color, symbol…",
+    "openSearch": "Open search",
+    "toggleTheme": "Toggle theme",
+    "home": "Home"
+  },
+  "Common": {
+    "explore": "Explore",
+    "viewAll": "View all",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "prev": "Previous",
+    "random": "Random",
+    "loading": "Loading",
+    "all": "All",
+    "page": "Page",
+    "nations": "{count} nations"
+  },
+  "Hero": {
+    "edition": "Edition No. 01 · MMXXVI",
+    "archiveLine": "Living archive · 197 nations · 4,812 symbols catalogued",
+    "titleLine1": "Every flag",
+    "titleLine2": "is a manifesto",
+    "titleLine3": "woven from color & silence.",
+    "lede": "An editorial archive of what pulses behind every band, star and crest. Explore nations, traverse states, discover colors that changed meaning and symbols that outlived empires.",
+    "enterAtlas": "Enter the Atlas",
+    "chromaticStudy": "Chromatic study",
+    "scrollHint": "Scroll to discover"
+  },
+  "Manifesto": {
+    "index": "Editorial manifesto",
+    "quote": "Flags don't decorate countries — they compress centuries into four or five chromatic gestures.",
+    "cards": [
+      {
+        "title": "Form is argument",
+        "body": "Every geometric division carries doctrine: horizontal bands were born of revolution, cantons celebrate union, triangles isolate guiding ideas."
+      },
+      {
+        "title": "Color is memory",
+        "body": "Greens that once meant faith became forest. Reds once monarchic became laborers'. Every palette is an archaeological layer."
+      },
+      {
+        "title": "Symbol is resistance",
+        "body": "Stars mark states, suns mark peoples, animals mark lineages. Each element survived a contest of narratives."
+      }
+    ]
+  },
+  "Archive": {
+    "index": "Exploratory atlas",
+    "title": "Choose where to begin.",
+    "lede": "Filter by continent, era of adoption or dominant color. Each card opens a full visual dossier.",
+    "filterRegion": "Filter by continent",
+    "filterColor": "Filter by dominant color",
+    "sortLabel": "Order",
+    "sortCurated": "Editorial curation",
+    "sortAz": "A — Z",
+    "sortYearAsc": "Oldest flag",
+    "sortYearDesc": "Newest flag",
+    "layoutGrid": "Grid",
+    "layoutList": "Editorial",
+    "emptyTitle": "No flag matches these filters.",
+    "emptyText": "Try loosening the combination or clearing the search.",
+    "reset": "Clear filters",
+    "openDossier": "Open dossier"
+  },
+  "Chronicle": {
+    "index": "Vexillological chronicle",
+    "title": "Four centuries in cloth.",
+    "lede": "From the Thirteen Colonies to post-colonial flags — drag to traverse."
+  },
+  "Palette": {
+    "index": "Chromatic study",
+    "title": "Five colors, a thousand translations.",
+    "lede": "Hover a color to reveal the nations that adopted it and what it means in each context.",
+    "labIndex": "Chromatic lab",
+    "labTitle": "Extract the color. Read the meaning.",
+    "labLede": "Pick a point on the flag to sample its exact color and the symbolic reading behind it.",
+    "extract": "Extract color",
+    "extractCancel": "Cancel extraction",
+    "instruction": "Click anywhere on the flag to extract its symbolic meaning.",
+    "interactiveSurface": "Interactive surface",
+    "automatedExtraction": "Automated extraction",
+    "restrictedTitle": "Extraction restricted",
+    "restrictedText": "Security protocols block direct pixel access for this source. Use the official archival metadata below."
+  },
+  "Symbols": {
+    "index": "Lexicon of symbols",
+    "title": "A vocabulary that crosses borders.",
+    "appearsIn": "Appears in",
+    "meaning": "Meaning"
+  },
+  "Compare": {
+    "index": "Comparator",
+    "title": "Set two flags face to face.",
+    "lede": "Pick two countries and read their chromatic and symbolic choices side by side.",
+    "vs": "vs",
+    "selectCountry": "Select a country"
+  },
+  "Discover": {
+    "index": "Discovery mode",
+    "title": "Small stories that change everything.",
+    "spin": "Spin a flag"
+  },
+  "Dossier": {
+    "tabs": {
+      "overview": "Overview",
+      "palette": "Palette",
+      "symbols": "Symbols",
+      "evolution": "Evolution",
+      "trivia": "Trivia",
+      "subdivisions": "Subdivisions",
+      "related": "Related"
+    },
+    "facts": {
+      "capital": "Capital",
+      "adopted": "Adopted",
+      "ratio": "Ratio",
+      "designer": "Designer",
+      "region": "Region",
+      "tag": "Form"
+    },
+    "history": "History",
+    "context": "Context",
+    "inspectHint": "Tap the points to inspect",
+    "now": "Now",
+    "then": "Then",
+    "relatedWhy": "Visual kinship"
+  },
+  "Footer": {
+    "tagline": "An editorial archive of vexillology, culture and design. An independent project — all flags belong to the peoples they represent.",
+    "navigate": "Navigate",
+    "editorial": "Editorial",
+    "colophon": "Colophon",
+    "colophonText": "Typeset in Fraunces & Inter. Curated content, hand-built code.",
+    "rights": "© MMXXVI · Vexilla",
+    "motto": "Cloth. Ink. Memory."
+  },
+  "Locale": {
+    "switch": "Language"
+  }
+}
